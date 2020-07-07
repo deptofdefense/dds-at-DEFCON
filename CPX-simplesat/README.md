@@ -1,4 +1,4 @@
-#CPX Simple Sat
+# CPX Simple Sat
 
 CPX SimpleSat focuses on exposing some of the underlying problems of cyber security for Satellite systems.  In this case, the SimpleSat is focusing on how similar to cell systems, a satellite doesn’t tend to use encryption or authentication when talking to a ground station.  This means that if a malicious individual gets access to a ground station, they can do as they please to the satellite network.  In the case of the SimpleSat, we focus on this by removing the complex hardware and RF components.  By gaining access to the “ground station” over a virtual serial interface, the attendee will attempt to gain control of the “satellite” by targeting power control systems and navigation, mimicking the same steps that the teams in the Hack a Sat contest will be doing, but in a simpler form.  
 
