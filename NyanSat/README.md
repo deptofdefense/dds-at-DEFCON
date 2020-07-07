@@ -1,4 +1,4 @@
-#NyanSat
+# NyanSat
 The Nyansat workshop consists of three challenges:
 
 - DIY Tracking Antenna: Participants will build their own tracking antennas, which they can use to receive signals from satellites or terrestrial sources.  
