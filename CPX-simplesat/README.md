@@ -20,12 +20,12 @@ Your goal in the game is to gain as much control of the satellite as you can by 
 
 ### Game Documents
 
-TBA
+The game ICD can be found [here](./SimpleSat_ICD.pdf)
 
 ## DIY
 
 If you want to create your own version of CPX Simple Sat, the STL files, build instructions, and source code can be found here: 
 
 - [STL files and Assembly instructions](./3D_Files/README.md)
-- Documentation TBD
-- Source code to be added after decon
+- [Build Guide](./buildGuide.md)
+- Source code to be added after defcon
