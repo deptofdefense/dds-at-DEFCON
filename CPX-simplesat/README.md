@@ -4,7 +4,7 @@ Created as a part of the [Aerospace Village](https://aerospacevillage.org/) for 
 
 ## Background
 
-Satellite hacking is one of those fields where all the best stories are kept behind closed doors.  Like the rest of Aerospace, the field suffers from a large amount of jargon that can make it difficult for the casual passerby to understand and follow.  Add to that the lack of through public documentation when events do happen, and it's easy to see why there are problems.  
+Satellite hacking is one of those fields where all the best stories are kept behind closed doors.  Like the rest of Aerospace, the field suffers from a large amount of jargon that can make it difficult for the casual passerby to understand and follow.  Add to that the lack of thorough public documentation when events do happen, and it's easy to see why there are problems.  
 
 In CPX Simple Sat we attempt to teach you some of the basic dangers and risks of satellite exploitation by creating an abstract version of a real world event.  In 2008, hackers used a ground station to communicate to and attempt to gain access to the Terra satellite (launched in 1999).  In the real world this is where the story ends, the hackers attempted to communicate with the satellite but didn't issue any commands, and the satellite itself was fine and is still working today.  But while the real life event may not have been that exciting, the concept this event represents poses an interesting challenge.
 
@@ -16,7 +16,7 @@ Either way, you will be using a [Circuit Playground Express](https://www.adafrui
 
 The satellite you will be interacting with is made out of a  [Circuit Playground Express](https://www.adafruit.com/product/3333) and [CRICKIT](https://www.adafruit.com/product/3093).  It talks to the ground station via the Inferred receiver and transmitter on each CPX board.  Due to this, sometimes a message may not be decoded properly.  If you think the state of the satellite is incorrect, then type "!reset" on your turn to resync it to your current state in the game.  
 
-Your goal in the game is to gain as much control of the satellite as you can by outwitting both its onboard systems and the remote ground station controlling it.  
+Using the game ICD, your goal in the game is to gain as much control of the satellite as you can by outwitting both its onboard systems and the remote ground station controlling it.  
 
 ### Game Documents
 
