@@ -1,3 +1,5 @@
+![Aviation Hacking Banner](./Aviationhacking-hero.png)
+
 # dds-at-DEFCON
 DDS aviation and space workshops at DEFCON
 
