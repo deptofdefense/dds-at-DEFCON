@@ -5,7 +5,7 @@ For the second year, the Defense Digital Service is partnering with the United S
 
 We have created a vibrant, web-based virtual reality environment for you to interact with each of our workshops. Access our virtual workshops at [dds-virtual.com](https://dds-virtual.com/), otherwise, see below for the deets on game play for each of the work shops!
 
-# Aerospace Workshops Documentation for Gameplay
+# Documentation for Gameplay
 
 ## Aviation Hacking Workshops: Bricks In The Air 
 
