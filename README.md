@@ -13,9 +13,9 @@ In order to encourage more people to become interested in investigating aircraft
 
 ## Satellite Hacking Workshops: CPX Simple Sat, DDSAT-1, & NyanDat
 
-- CPX Simple Sat attempts to teach the basics of satellite exploitation with a ground station in an easily approachable and jargon free manor. Access the workshop files here: [CPX Simple Sat](https://github.com/deptofdefense/dds-at-DEFCON/tree/master/CPX-simplesat)
-- DDSat-1 focuses on showing the problems with how many of the control messages for satellites are either naturally unencrypted, or kick to an unencrypted mode should the satellite not be able to communicate with the ground station. Access workshop files here: [DDSAT-1](https://github.com/deptofdefense/dds-at-DEFCON/tree/master/DDSAT-1)
-- The Nyansat workshop consists of three challenges: 
+- **CPX Simple Sat** attempts to teach the basics of satellite exploitation with a ground station in an easily approachable and jargon free manor. Access the workshop files here: [CPX Simple Sat](https://github.com/deptofdefense/dds-at-DEFCON/tree/master/CPX-simplesat)
+- **DDSat-1** focuses on showing the problems with how many of the control messages for satellites are either naturally unencrypted, or kick to an unencrypted mode should the satellite not be able to communicate with the ground station. Access workshop files here: [DDSAT-1](https://github.com/deptofdefense/dds-at-DEFCON/tree/master/DDSAT-1)
+- The **Nyansat** workshop consists of three challenges: 
   - DIY Tracking Antenna: Participants will build their own tracking antennas, which they can use to receive signals from satellites or terrestrial sources.  
   - Hacking a Ground Station Modem: Red Balloon is making available a standard 56k modem used by satellite ground stations, so participants can learn about the state of ground station security and see how an attacker could exploit these devices..  
   - Public, Live Streamed Ground Station: Red Balloon has constructed a working ground station that can receive data from thousands of satellites. They will be turning control of this station over to the DEFCON community, and livestreaming a Q&amp;A, panel discussions, and of course, live data received by the antenna.
