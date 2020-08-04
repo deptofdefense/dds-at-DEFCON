@@ -24,8 +24,10 @@ Access workshop files here: <a href="https://nyan-sat.com/" target="_blank">Nyan
 
 # DDS How to Libraries
 
-[SAT Hacking library](https://github.com/deptofdefense/hack-a-sat-library)
+## [Aviation Hacking Library](https://github.com/deptofdefense/hack-aviation-library)
+A collection of learning resources for budding aviation security researchers (aka hackers). Learn so we can secure aviation from design to implementation! *Note: This is an evolving resource, so please contribute with a pull request*
 
+## [SAT Hacking library](https://github.com/deptofdefense/hack-a-sat-library)
 A collection of Resources for budding SAT hackers (Satellites, not the test¯\_(ツ)_/¯). Note: This is an evolving resource, so please contribute with a pull request
 
 ![Aviation Hacking Footer](./Aviationhacking-footer.png)
