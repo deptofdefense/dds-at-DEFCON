@@ -20,7 +20,8 @@ Using the game ICD, your goal in the game is to gain as much control of the sate
 
 ### Game Documents
 
-The game ICD can be found [here](./SimpleSat_ICD.pdf)
+- [Game ICD](./SimpleSat_ICD.pdf)
+- [Bonus Notes](./BONUS-cpx-sat-notes.pdf)
 
 ## DIY
 
