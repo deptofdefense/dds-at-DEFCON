@@ -11,7 +11,7 @@ We have created a vibrant, web-based virtual reality environment for you to inte
 
 In order to encourage more people to become interested in investigating aircraft vulnerabilities as well as understand the problems aircraft face, Bricks in the Air attempts to represent this problem in a simple and jargon free manner.  By replacing the complex and unfamiliar 1553/429 buses with the more well known I2C data bus, we remove a lot of the jargon and confusion of the problem while allowing attendees to understand the core problem: Aircraft data buses are old and unsecure, and someone should fix that.   Access the workshop files here: [Bricks In The Air](https://github.com/deptofdefense/dds-at-DEFCON/tree/master/bricks-in-the-air)
 
-## Satellite Hacking Workshops: CPX Simple Sat, DDSAT-1, & NyanDat
+## Satellite Hacking Workshops: CPX Simple Sat, DDSAT-1, & NyanSat
 
 - **CPX Simple Sat** attempts to teach the basics of satellite exploitation with a ground station in an easily approachable and jargon free manor. Access the workshop files here: [CPX Simple Sat](https://github.com/deptofdefense/dds-at-DEFCON/tree/master/CPX-simplesat)
 - **DDSat-1** focuses on showing the problems with how many of the control messages for satellites are either naturally unencrypted, or kick to an unencrypted mode should the satellite not be able to communicate with the ground station. Access workshop files here: [DDSAT-1](https://github.com/deptofdefense/dds-at-DEFCON/tree/master/DDSAT-1)
