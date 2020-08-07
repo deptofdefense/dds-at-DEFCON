@@ -1,6 +1,6 @@
 # CPX Simple Sat
 
-Created as a part of the [Aerospace Village](https://aerospacevillage.org/) for DEFCON28 (Rest in Safe Mode), CPX Simple Sat attempts to teach the basics of satellite exploitation with a ground station in an easily approachable and jargon free manor.  
+Created as a part of the [Aerospace Village](https://aerospacevillage.org/) for DEFCON28 (Rest in Safe Mode), CPX Simple Sat attempts to teach the basics of satellite exploitation with a ground station in an easily approachable and jargon free manner.
 
 ## Background
 
