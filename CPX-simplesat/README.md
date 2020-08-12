@@ -2,6 +2,10 @@
 
 Created as a part of the [Aerospace Village](https://aerospacevillage.org/) for DEFCON28 (Rest in Safe Mode), CPX Simple Sat attempts to teach the basics of satellite exploitation with a ground station in an easily approachable and jargon free manner.
 
+| ![cpxSat](./photos/cpxsat.jpg) |
+| :---: |
+| How the setup looked like on our side |
+
 ## Background
 
 Satellite hacking is one of those fields where all the best stories are kept behind closed doors.  Like the rest of Aerospace, the field suffers from a large amount of jargon that can make it difficult for the casual passerby to understand and follow.  Add to that the lack of thorough public documentation when events do happen, and it's easy to see why there are problems.  

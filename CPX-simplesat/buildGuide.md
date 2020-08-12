@@ -114,3 +114,11 @@ The satellite part of CPX Simple Sat is the most complicated part of the build, 
 | Here we solder and heat shrink the jumper cable |
 | ![ant](./photos/smoke.gif) |
 | And now you test it out.  If all went well you will have a working CPX Simple Sat.  Congratulations! |
+| Note if you want to make the satellite look better in the dark, cover up the green power leds with tape |
+
+### Ground Station
+
+| Ground station setup |
+| :---: |
+| ![gs](./photos/cpxground.jpg) |
+| Building the ground station part is straightforward.  The two pieces slot together, and if using a case like [this](https://www.amazon.com/Geekworm-Raspberry-Computer-Aluminum-Compatible/dp/B07VD6LHS1) it should fit snugly on the pi.  Once there, either screw/hot glue/tape the cpx to the board and connect the 3.3V, GND, TX, and RX to the pi or whatever device the chatbot is running on.  
