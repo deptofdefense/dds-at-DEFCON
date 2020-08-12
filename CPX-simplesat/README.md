@@ -33,4 +33,4 @@ If you want to create your own version of CPX Simple Sat, the STL files, build i
 
 - [STL files and Assembly instructions](./3D_Files/README.md)
 - [Build Guide](./buildGuide.md)
-- Source code to be added after defcon
+- [Source Code](./code/README.md)
