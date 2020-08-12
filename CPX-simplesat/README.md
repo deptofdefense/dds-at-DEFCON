@@ -29,8 +29,8 @@ Using the game ICD, your goal in the game is to gain as much control of the sate
 
 ## DIY
 
-If you want to create your own version of CPX Simple Sat, the STL files, build instructions, and source code can be found here: 
+If you want to create your own version of CPX Simple Sat, the STL files, build instructions, and source code can be found here:
 
-- [STL files and Assembly instructions](./3D_Files/README.md)
+- [STL files and Assembly instructions](./3dFiles/README.md)
 - [Build Guide](./buildGuide.md)
 - [Source Code](./code/README.md)
