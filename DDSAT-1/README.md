@@ -103,7 +103,7 @@ DDSat1 Hardware list:
 | Hardware Design |
 | :---: |
 | ![front](./photos/ddsatFront.jpg) |
-| ![back](./photos/ddsatback.jpg) |
+| ![back](./photos/ddsatBack.jpg) |
 | ![top](./photos/IMG_20200811_100851.jpg) |
 
 ## Things that didn't work
