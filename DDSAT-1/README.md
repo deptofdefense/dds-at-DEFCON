@@ -30,7 +30,11 @@ When first looking at a signal it can be hard to tell if there is a counter fiel
 
 ### RF
 
-Now that we've gone over the basic background, lets look at the actual design decisions that made DDSat what it was.  To allow for rapid development, it was decided early on that DDSat would be an interpretative data link.  That allowed for more flexibility and allowed for more rapid changes to the message format.  To make this easy to read and identify, it was decided to use ascii characters as often as possible.  As such, the characters `C`, `R`, and `S` were picked to act as message type identifiers, while the target and payload fields were also to be kept in ascii.  
+Now that we've gone over the basic background, lets look at the actual design decisions that made DDSat what it was.  To allow for rapid development, it was decided early on that DDSat would be an interpretative data link.  That allowed for more flexibility and allowed for more rapid changes to the message format.  
+
+One thing that I forgot to mention earlier was the concept of encoding.  Not exclusive to RF, encodings are used any time a data link has a risk of transmitting a stream of all zeros or ones without a clock or reference signal.  It's a classic data link problem with many different solutions.  If we were doing this in the real world, the DPSK modulation would take care of this for us, so we could technically skip this step.  But for added complexity I added in a manchester encoding onto the data.  That means before it is converted into base64, every `1` is replaced with a `10` and every `0` with a `01`.  Manchester is an old encoding scheme with an easy to recognize pattern, which hopefully means everyone figured it out quickly.
+
+To make this easy to read and identify, it was decided to use ascii characters as often as possible.  As such, the characters `C`, `R`, and `S` were picked to act as message type identifiers, while the target and payload fields were also to be kept in ascii.  
 
 In addition to a dynamic payload, it was decided to use CRC32 for message validation.  While not that common in actual RF signals, its a popular enough standard in digital communication that people would recognize it easier than some of the real world versions.  
 
