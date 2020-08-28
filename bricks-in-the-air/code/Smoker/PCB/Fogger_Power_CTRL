@@ -1,0 +1,31 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>C:\Users\Quant\Nextcloud\Projects\Fogger V2\PCB\Fogger_Power_CTRL\Fogger_Power_CTRL.sch</h1>
+    <p>8/1/2020 3:08:58 PM</p>
+    <p>Eeschema (5.1.6)-1</p>
+    <p><b>Component Count:</b>14</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>D1</td><td>1</td><td>NA</td><td>Device:D</td><td>Diode_THT:D_P600_R-6_P12.70mm_Horizontal</td><td>Diode</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>Batt +</td><td>Connector:Conn_01x01_Male</td><td>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>Batt -</td><td>Connector:Conn_01x01_Male</td><td>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>Control_GND</td><td>Connector:Conn_01x01_Male</td><td>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J4</td><td>1</td><td>Control_Smoke</td><td>Connector:Conn_01x01_Male</td><td>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>Smoke +</td><td>Connector:Conn_01x01_Male</td><td>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J6</td><td>1</td><td>Smoke -</td><td>Connector:Conn_01x01_Male</td><td>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J7</td><td>1</td><td>Control_Motor</td><td>Connector:Conn_01x01_Male</td><td>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J8</td><td>1</td><td>Motor +</td><td>Connector:Conn_01x01_Male</td><td>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J9</td><td>1</td><td>Motor -</td><td>Connector:Conn_01x01_Male</td><td>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>Q1, Q2</td><td>2</td><td>IRLU8743PBF-ND</td><td>Transistor_FET:VNP10N07</td><td>Package_TO_SOT_THT:TO-251-3-1EP_Horizontal_TabDown</td><td>10A Id, 70V Vds, N-Channel Power MOSFET, fully autoprotected, TO-220</td><td></td></tr>
+    <tr><td>R1, R2</td><td>2</td><td>10K</td><td>Device:R_US</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</td><td>Resistor, US symbol</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

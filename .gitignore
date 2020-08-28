@@ -1,0 +1,12 @@
+# ignore config file
+config.yml
+
+# ignore python cache files
+*.pyc
+
+# ignore all user generated logs
+*.log
+
+# ignore the freecad stash
+*.FCStd1
+

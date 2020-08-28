@@ -1,0 +1,40 @@
+#
+# Do not track any of the twitch credentials
+#
+twitch:
+    TMI_TOKEN:
+    CLIENT_ID:
+    BOT_NICK:
+    BOT_PREFIX: '!'
+    #The prefix that you want to use to denote a chatbot command.
+    CHANNEL:
+        -
+    #This can be a list with multiple channels to connect to.
+
+# Serial connection pieces specific to the hardware it's running on.
+hardware:
+    i2c: BLINKA_FT232H
+    value: 1
+    frequency: 100000
+    fcc_address: 0x50
+    engine_address: 0x55
+    gear_address: 0x60
+
+
+display:
+    height: 720
+    width: 1280
+    textColor: ""
+    cmdDelay: 5
+
+logging:
+    path: "/user_logs/"
+
+cue:
+    time: 60
+    limit: 5
+
+script: ""
+
+admins:
+    - 'your_twitch_username_here'
