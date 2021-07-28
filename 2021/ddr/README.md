@@ -65,7 +65,7 @@ The message structure is simple enough this year that you do not need to write a
 For `!send`, you will need a way to generate a CRC value, and a way to encode and decode base64 data.  This can all be done online, and we recommend using sites like:
 
 * https://crccalc.com/
-* https://www.base64decode.org/
+* https://cryptii.com/pipes/base64-to-hex
 
 ### With-Programming
 
@@ -131,6 +131,8 @@ Below are some hints on how to reverse the rover commands as well as a link to o
 * Each transmission contains a command type, command identifer, message count, and CRC fields.  
 * Each movement message has three values left motor power, right motor power, and run time.  
 * The first bit of both the left and right motor fields identifies if the motor is going forward or reverse
+* The Defense Digital Rover is the latest product from Otter MiSpace and SpaceDotCom
+* 7h3 p455w0rd 15 fr0m 1457 Y34r5 64m3 
 
 ### Walkthrough
 
