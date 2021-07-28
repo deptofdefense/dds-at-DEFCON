@@ -93,7 +93,7 @@ We are used to thinking of space as a solitary, isolating place, where no one ca
 
 One of the basic rules of the physics of data transmission is that the longer a message becomes, the more overhead is needed to process the message and the more likely it is that the message becomes corrupted during transmission.  This is why the concept of a maximum transmission unit (MTU) exists.  Space doesn’t like to play nice with anyone, thus leading to a very high likelihood of transmission errors and forcing the individual message length of a transmission to be fairly small compared to terrestrial transmissions.  
 
-In order to maximize bandwidth in such a challenging space, most space-based data links are bit oriented instead of the more common byte-oriented nature of terrestrial data links.  Between this and the use of custom modulation schemes, its not uncommon to see some designers advertise this as a form of encryption.  Its not.  While its true the raw data can look obscured to anyone who doesn't know what is happening, none of the underlying patterns or relations between the fields are actually obscured or hidden.  
+In order to maximize bandwidth in such a challenging space, most space-based data links are bit-oriented instead of the more common byte-oriented nature of terrestrial data links.  Between this and the use of custom modulation schemes, its not uncommon to see some designers advertise this as a form of encryption.  Its not.  While its true the raw data can look obscured to anyone who doesn't know what is happening, none of the underlying patterns or relations between the fields are actually obscured or hidden.  
 
 #### Time Delay
 
@@ -103,20 +103,35 @@ This means that designers of these systems cannot rely on seeing the immediate r
 
 ### Hacker-Challenges
 
-This is an h3 heading
+Just as there are unique challenges designing a space-based system, there are unique challenges to hacking one.  The first two are more extremes versions of the problems facing any RF hacker: Signal Detection and Data Analysis.  The third is ironically a privacy issue.  
+
+#### Signal-Detection
+
+Anyone who has tried to hack an RF data link would be used to the challenge of trying to identify and demodulate a signal in the wild.  Space ramps this problem up to 11 with two additional challenges.  The first is that while most space systems transmit at fairly regular intervals, being in range of the transmissions can be a challenge.  Both the orbit of your target, and the location of the antenna can greatly change how often and at what times you can even attempt to communicate with the system.  The end result is that even though a system may orbit the planet, that doesn't mean you can just point an antenna at the sky and be able to see it.  This isn't the case in most RF attack, where instead one simply has to get within range to attack a target.  
+
+The second challenge with signal detection is the issue of background noise.  Due to the nature of the game, there's no way to put your target inside a faraday cage and remove all outside noise.  Thus, one has to be prepared for capture attempts to be destroyed by random transmitter talking on the same frequency.  
+
+These two challenges make recording signal captures for analysis an especially frustrating experience.  
 
 #### Data-Analysis
 
-This is an h3 heading
+After one has captured the RF signal, now the actual analysis of the message structure can begin.  Like analyzing a terrestrial signal the first step is to look for patterns and try and identify field boundaries.  However physics once again makes this step extra hard.  Recall in the discussion of design challenges the problems of bandwidths and time delays?  Those will be a problem once again here.  
+
+Most messages in this space are  bit-oriented, meaning a field has only as many bits as it needs, as opposed to the more common byte-oriented message structure, where each field will end on a byte boundary.  For example, in a bit-oriented a variable with only two values would only take up two bits of space, while in a byte-oriented message this field would take up an entire byte.  The fact that each bit can be an independent variable makes it more complicated to find patterns.  
+
+The other issue that makes data analysis challenging is how the time delay between transmissions and responses can make it hard to match commands and responses to and from the system.  
 
 ## Hints-and-Walkthrough
 
-This is an h1 heading
+Below are some hints on how to reverse the rover commands as well as a link to our internal walkthrough.  
 
 ### Hints
 
-This is an h2 heading
+* Each message is byte-oriented, so every field will begin and end on a byte boundary.  
+* Each transmission contains a command type, command identifer, message count, and CRC fields.  
+* Each movement message has three values left motor power, right motor power, and run time.  
+* The first bit of both the left and right motor fields identifies if the motor is going forward or reverse
 
 ### Walkthrough
 
-This is an h3 heading
+See [this guide](./walkthrough.md)
