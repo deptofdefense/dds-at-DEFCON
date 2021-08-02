@@ -19,7 +19,7 @@ The Defense Digital Rover (DDR) is a simple web controlled rover designed to tea
 
 ## How-to-Play
 
-To interact with the rover, simply head over to the twitch channel: [here](https://www.twitch.tv/ddsat1).  Players will interact and take command of the rover by using the stream chat to talk to both the rover and ground control chatbots.  Twitch was chosen because it has both a robust API and requires players to download no additional software.  
+To interact with the rover, simply head over to the twitch channel: [here](https://www.twitch.tv/defensedigitalrover).  Players will interact and take command of the rover by using the stream chat to talk to both the rover and ground control chatbots.  Twitch was chosen because it has both a robust API and requires players to download no additional software.  
 
 Players can complete the game without any programing, however writing scripts and chatbots can make the game easier for those who take the time to do so.  The rover chatbot is ddsat1, while the ground station chatbot is OtterBot.  
 
