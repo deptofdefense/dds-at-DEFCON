@@ -1,5 +1,9 @@
 # Defense Digital Rover
 
+|   |   |
+:--: | :---:
+![](./photos/front.jpg) | ![](./photos/side.jpg)
+
 The Defense Digital Rover (DDR) is a simple web controlled rover designed to teach the basics of attacking a space based radio frequency data link.  This is an update on the [DDSat-1](./../../2020/DDSAT-1/README.md) project from last year, using the feedback from everyone who played.  This year players will try and take control of a rover driving around the Paris ballroom.  Similar to last year, the twitch chat will be used to represent the RF data link.  This year the message will allow you to control the motors on a rover, letting you drive around the defcon floor.  
 
 ## Table of Contents
