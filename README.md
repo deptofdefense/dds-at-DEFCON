@@ -6,6 +6,7 @@ Welcome, this repo contains the public files for the various DDS defcon workshop
 
 * For DEFCON28 (2020): [Click Here](./2020/README.md)
 * For DEFCON29 (2021): [Click Here](./2021/README.md)
+* For DEFCON30 (2022): [Click Here](./2022/README.md)
 
 ## Hacking Libraries
 
