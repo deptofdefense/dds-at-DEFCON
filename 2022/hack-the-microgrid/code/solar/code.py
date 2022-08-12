@@ -20,7 +20,7 @@ pixels = neopixel.NeoPixel(board.NEOPIXEL, 10, brightness=1)
 houses = neopixel.NeoPixel(board.A1, 6, brightness=1)  # have six houses
 
 # set up serial
-uart = busio.UART(board.TX, board.RX, baudrate=115200, timeout=0.1)
+uart = busio.UART(board.TX, board.RX, baudrate=9600, timeout=0.1)
 
 
 def initial_setup():

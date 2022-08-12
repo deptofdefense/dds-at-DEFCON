@@ -26,7 +26,7 @@ smokeTimer = 5 # how long in seconds to run the smoker for
 pixels = neopixel.NeoPixel(board.NEOPIXEL, 10, brightness=1)
 
 # set up serial
-uart = busio.UART(board.TX, board.RX, baudrate=115200, timeout=.1)
+uart = busio.UART(board.TX, board.RX, baudrate=9600, timeout=.1)
 
 def initial_setup():
     global pixels, smoker, ss

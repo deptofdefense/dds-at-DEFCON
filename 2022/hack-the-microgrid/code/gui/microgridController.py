@@ -70,12 +70,14 @@ class MicrogridController:
         elif data["wind_speed_actual"] >= data["wind_speed_inject"] + 10:
             windWarning += 1
 
+        '''
         if (data["wind_direction_actual"]-data["wind_direction_inject"]) >= 90 or (data["wind_direction_actual"]-data["wind_direction_inject"]) <= -90:
             windAlert += 1
         elif (data["wind_direction_actual"]-data["wind_direction_inject"]) >= 60 or (data["wind_direction_actual"]-data["wind_direction_inject"]) <= -60:
             windWarning += 1
         elif (data["wind_direction_actual"]-data["wind_direction_inject"]) >= 30 or (data["wind_direction_actual"]-data["wind_direction_inject"]) <= -30:
             windWarning += 0
+        '''
 
         if (abs(data["temp_low_inject"]) - abs(data["temp_low_actual"])) >= 50:
             solarAlert += 1
@@ -108,20 +110,13 @@ class MicrogridController:
 
         if self.easterEgg:
             self.easterEgg = False
-            self.payloadInterface("solar", "hse", [0, random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
-            self.payloadInterface("solar", "hse", [1, random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
-            self.payloadInterface("solar", "hse", [2, random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
-            self.payloadInterface("solar", "hse", [3, random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
-            self.payloadInterface("solar", "hse", [4, random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
-            self.payloadInterface("solar", "hse", [5, random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
-            self.payloadInterface("solar", "top", [random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
-            self.payloadInterface("solar", "btm", [random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
+            
+            self.payloadInterface("solar", "egg", [1])
             self.payloadInterface("wind", "top", [random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
             self.payloadInterface("wind", "btm", [random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
             #self.payloadInterface("wind", "all", [random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)])
             self.payloadInterface("wind", "spn", [random.randint(0, 99)])
-
-            #TODO: Finish
+            
         else:
             # Wind special cases
             if data["wind_speed_inject"] >= data["wind_speed_inject"] + 50:
