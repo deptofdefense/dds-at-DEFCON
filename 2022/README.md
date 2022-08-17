@@ -5,7 +5,7 @@ It's time to party like its 1993.  In celebration of DEFCON hitting the big 30, 
 For the direct links to the different workshops and events, see below:
 
 * Main Stage Talk:
-  * [Space Jam](https://github.com/deptofdefense/dc30-space-jam/blob/main/README.md) 
+  * [Space Jam](https://github.com/deptofdefense/dc30-space-jam/) 
 * Aerospace Village
   * [Satellite Eavesdropping](./av-satellite-eavesdropping/README.md)
   * [Bricks in the Air](./../2020/bricks-in-the-air/README.md)
