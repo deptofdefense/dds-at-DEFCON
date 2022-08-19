@@ -33,3 +33,8 @@ To build the smoke machine, you need two things:
 | You don't need to cut off the entire nozzle, just enough so that the vape chamber can easily sit on top of it.  |
 | ![](./photos/smokeComplete.PNG) |
 | To hold the two pieces together, just use hotglue along the edge of the vape chamber to attach it to the top of the air pump.  Don't forget to use hot glue to cover the outside of the notch you cut, that way air still gets pushed through the vaporizer.  |
+
+- To hold the smoke machine in the turbine, use: [this as a mounting base](./turbine/prop-smokeHolder.stl)
+- To push smoke out of the turbine, use some silicone hosing with a 4mm ID and 6mm OD, [this for example](https://www.amazon.com/uxcell-Silicone-Flexible-Translucent-Transfer/dp/B01N63VFI3)
+- To get the hose to fit onto the smoke machine top, use [this cap cover](./turbine/prop-smokeCap.stl)
+- To make the smoke, fill the vaporization chamber with any commercial fog juice before running.  Any glycerin based solution will work.  
