@@ -1,5 +1,7 @@
 # Hack The Microgrid
 
+![ICS Banner](./photos/disco.PNG)
+
 Welcome to the Hack the Microgrid workshop page.  This workshop was developed in partnership with the US Amry Fort Hunter Liggett and Lawrence Berkeley National Labs.  The goal is to show off how new advancements in microgrid design have also changed how the cyber security of these grids need to be thought about.  And while it's true that the biggest threat to power grids is still the grey squirrel, there are sadly no grey squirrel conferences, thus we're here instead.  
 
 ## Background
@@ -10,7 +12,7 @@ Most modern microgrids have started implementing advance management software tha
 
 ## Game
 
-TODO
+The point of the game is to demonstrate a unique vulnerability that some microgrids have when an adversary injects malicious weather data.  
 
 ## DIY
 
