@@ -2,7 +2,23 @@
 
 This si a list of files to print to make your own microgrid
 
-## TODO : Add build instructions
+## Print Instructions
+
+All the pieces were broken up in such a way that you should be able to print everything without needing supports on a 3D printer.  The prints were all designed for printing on a FDM printer, however they might work on an SLA printer, assuming your print bed is large enough.  
+
+### Houses
+
+These are all based off of a [model that we pulled from Thingiverse](https://www.thingiverse.com/thing:31644) and edited to have a hole for the neopixel LEDs.  
+
+There are six houses in the setup, one for each LED on the neopixel cables we made.  They were printed in [natural color PLA](https://www.matterhackers.com/store/3d-printer-filament/175mm-pla-filament-natural-1-kg) to give them a semitransparent effect.  
+
+Each house requires one of each:
+- [First Floor](./house/The_Puritan_1st_floor_hole.stl)
+- [Second Foor](./house/The_Puritan_2ed_floor_hole.stl)
+- [Roof](./house/The_Puritan_Roof.stl)
+
+
+## Build Instructions
 
 ### Smoke Machine
 
