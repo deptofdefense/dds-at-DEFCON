@@ -17,6 +17,39 @@ Each house requires one of each:
 - [Second Foor](./house/The_Puritan_2ed_floor_hole.stl)
 - [Roof](./house/The_Puritan_Roof.stl)
 
+### Solar Panels
+
+In the main kit, three solar panel setups are used.  Each panel is moved by a [microservo](https://www.amazon.com/Micro-Helicopter-Airplane-Remote-Control/dp/B072V529YD/) placed inside the main base piece.  
+
+Each solar panel requires:
+- 1x [panel](./solar/panel.stl)
+- 1x [servo base](./solar/servoBase.stl)
+- 1x [secondary base](./solar/base.stl)
+- 2x [rotating joint](./solar/joint.stl)
+
+Additionally, you can glue the servo arm to one of the joints if you want a more permanent fixture like below:
+
+![glueing the servo arm to joint](./photos/servoJoint.PNG)
+
+### Turbine
+
+The main tube of the turbine is a 1in PVC pipe.  We used a 24in length cut of pipe, simply because that was what was available pre-cut from the big box stores.  The smoke machine used by the turbine is detailed below in the build section.  The continuous servo used to spin the blades was [this model from adafruit](https://www.adafruit.com/product/154).  
+
+Each turbine requires:
+- 1x [base](./turbine/prop-base.stl)
+- 1x [base mounting cap](./turbine/prop-lockCap.stl)
+- 1x [top panel](./turbine/prop-topHole.stl)
+- 1x [front panel](./turbine/prop-frontHole.stl)
+- 1x [back panel](./turbine/prop-back.stl)
+- 1x [axel](./turbine/prop-axel.stl)
+- 1x [blade hub](./turbine/prop-bladeHub.stl)
+- 3x [blade](./turbine/prop-blade.stl)
+
+The smoke machine for each turbine requires the following two pieces:
+- 1x [smoke mount](./turbine/prop-smokeHolder.stl)
+- 1x [smoke cap](./turbine/prop-smokeCap.stl)
+
+The smoke mount is used to hold the smoke machine inside the turbine, and can be glued to the base of the turbine.  The smoke cap is used as a cover and placed over the mouth of the smoke machine.  This allows the silicone tube to connect directly to the smoke machine.  
 
 ## Build Instructions
 
