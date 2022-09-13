@@ -7,7 +7,7 @@ For the direct links to the different workshops and events, see below:
 * Main Stage Talk:
   * [Space Jam](https://github.com/deptofdefense/dc30-space-jam/) 
 * Aerospace Village
-  * [Satellite Eavesdropping](./av-satellite-eavesdropping/README.md)
-  * [Bricks in the Air](./../2020/bricks-in-the-air/README.md)
+  * [Satellite Eavesdropping](./av-satellite-eavesdropping/)
+  * [Bricks in the Air](./../2020/bricks-in-the-air/code/)
 * ICS Village
-  * [Hack the Microgrid](./hack-the-microgrid/README.md)
+  * [Hack the Microgrid](./hack-the-microgrid/)
