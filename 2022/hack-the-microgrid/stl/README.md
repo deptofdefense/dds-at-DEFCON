@@ -87,3 +87,22 @@ To build the smoke machine, you need two things:
 - To push smoke out of the turbine, use some silicone hosing with a 4mm ID and 6mm OD, [this for example](https://www.amazon.com/uxcell-Silicone-Flexible-Translucent-Transfer/dp/B01N63VFI3)
 - To get the hose to fit onto the smoke machine top, use [this cap cover](./turbine/prop-smokeCap.stl)
 - To make the smoke, fill the vaporization chamber with any commercial fog juice before running.  Any glycerin based solution will work.  
+
+#### Wiring to the Crickit
+
+While the smoke machine will work as is when plugged into a power supply, you will likely have problems using it directly with single board computers like the CPX that drives the turbine.  This is because the vaporization chamber will try to pull a lot of current very quickly to heat up, and that will often trigger safety sensors on the board.  To get around this, we add a mosfet inline with the vaporization chamber.  This both regulates the current being pulled and stops the spike problem, and gives us the ability to turn the smoke machine on and off with the signal pins on the crickit.  
+
+The mosfet we used was an [IRLU8743PBF
+](https://www.digikey.com/en/products/detail/infineon-technologies/IRLU8743PBF/1894174), with a 10k resistor connected to the gate and source pins.  This is a safety feature that stops the mosfet from accidentally turning on or staying on if the code crashes.  
+
+This causes the wiring harness to look something like this:
+
+![cricket wiring](./photos/crikit.PNG)
+
+Where the individual connections are:
+- NeoPixel 5V to Vaporization Chamber Red
+- NeoPixel Ground to MOSFET source
+- Drive 5V line to Air Pump positive side
+- Drive pin 1 to Air Pump negative side
+- Signal pin 1 to MOSFET gate
+- Vaporization chamber blue to MOSFET drain
