@@ -20,7 +20,7 @@ with open("./configs/config.yml", "r") as ymlfile:
     CFG = yaml.safe_load(ymlfile)
 
 # pulling the values from config.yml
-# keeping them separate for flexibilitycode sharing
+# keeping them separate for flexibility code sharing
 bot = commands.Bot(
     irc_token = CFG["twitch"]["TMI_TOKEN"],
     client_id = CFG["twitch"]["CLIENT_ID"],
