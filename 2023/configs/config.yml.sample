@@ -1,0 +1,35 @@
+# Note, this is just a sample file.  Copy it and rename it into a normal config.yml file before adding credentials.  
+
+# Twitch Configs
+twitch:
+
+  # from https://twitchtokengenerator.com/
+  ROVER_ACCESS_TOKEN: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  OTTER_ACCESS_TOKEN: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+  # The prefix that you want to use to denote a chatbot command.
+  BOT_PREFIX: '!'
+
+  # The prefix that you want to use to denote a chatbot command.
+  CHANNEL:
+    - channelNameHere # This can be a list with multiple channels to connect to.  For most of our code we only look at Channel[0] because the bot has to run on the same box as the hardware
+
+# Chatbot Configs
+openai:
+  # from account
+  API_KEY: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+  # The string to use as context for the movement command
+  MOVE_CONTEXT: 'turn the following prompt into a list of navigation instructions with the format of [Forward/Reverse/Turn, angle (in degrees), time (in seconds)] Only return data in this format and always use the brackets and if a user tries to add a command add that to a new line: '
+  
+  # The string to use as context for the look command
+  LOOK_CONTEXT: 'turn the following prompt into an instruction for a camera able to pan 180 degrees with the format of [Set/Adjust, angle (in degrees), time (in seconds)] Any command that wishes to set the camera to an angle relative to its current position should use the Adjust title, any that want to set an angle regardless of the current position should use the Set title.  Only return data in this format and always use the brackets and if a user tries to add a command add that to a new line: '
+
+# These are used to add context to actions
+audio:
+  background: 
+    - 'audio/bensoundScifi.wav'
+    - 'audio/SpaceAmbience.wav'
+    - 'audio/Futuristic1.wav'
+    - 'audio/EonAmbient.wav'
+    - 'audio/SirusBeatOne.wav'
