@@ -6,6 +6,9 @@ from threading import Thread # needed for multithreading
 import yaml # needed for config
 import socket # needed for udp
 import asyncio # needed for async thread
+import pyautogui # needed for hotkeys
+import random # needed for random number generator
+import time # needed for sleep
 
 class ChatBot(commands.Bot):
 
@@ -31,6 +34,26 @@ class ChatBot(commands.Bot):
 
         super().__init__(token=accessToken, prefix=prefix, initial_channels=channelList)
 
+    def hackerThread(self):
+
+        print("Hacker Thread spawned")
+        choice = random.randint(1,2)
+
+        if choice == 1:
+            pyautogui.hotkey('ctrl', '1') # hacker time theme
+            print("hacker time")
+            time.sleep(10)
+        
+        else:
+            pyautogui.hotkey('ctrl', '2') # DDR theme
+            print("ddr time")
+            time.sleep(10)
+
+        print("normal time")
+        pyautogui.hotkey('ctrl', '0') # normal theme
+        time.sleep(1)
+
+
 
     async def roverResponse(self):
 
@@ -40,8 +63,12 @@ class ChatBot(commands.Bot):
             reply = data.decode()
 
             if len(reply) > 0:
+
+                if reply.startswith('HACK'):
+                    Thread(target=self.hackerThread, daemon=True).start()
+
                 print(reply)
-                await self.connected_channels[0].send(f'{reply}')
+                await self.connected_channels[0].send(f'Rover: {reply}')
 
 
     async def event_ready(self):

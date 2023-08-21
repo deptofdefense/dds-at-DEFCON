@@ -20,10 +20,10 @@ openai:
   API_KEY: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
   # The string to use as context for the movement command
-  MOVE_CONTEXT: 'turn the following prompt into a list of navigation instructions with the format of [Forward/Reverse/Turn, angle (in degrees), time (in seconds)] Only return data in this format and always use the brackets and if a user tries to add a command add that to a new line: '
+  MOVE_CONTEXT: 'turn the following prompt into a list of navigation instructions with the format of [Forward/Reverse/Turn, angle (in degrees), time (in seconds)] Only return data in this format and always use the brackets with each command on a new line.  For example a command to turn left would look like [Turn, -90, 0] .  If a user tries to add a command add that to a new line: '
   
   # The string to use as context for the look command
-  LOOK_CONTEXT: 'turn the following prompt into an instruction for a camera able to pan 180 degrees with the format of [Set/Adjust, angle (in degrees), time (in seconds)] Any command that wishes to set the camera to an angle relative to its current position should use the Adjust title, any that want to set an angle regardless of the current position should use the Set title.  Only return data in this format and always use the brackets and if a user tries to add a command add that to a new line: '
+  LOOK_CONTEXT: 'turn the following prompt into an instruction for a camera able to pan 180 degrees with the format of [Set/Adjust, angle (in degrees), time (in seconds)] Any command that wishes to set the camera to an angle relative to its current position should use the Adjust title, any that want to set an angle regardless of the current position should use the Set title.  For example, if a user wants to set the camera to 45 degrees, the response should be [Set, 45, 0] Only return data in this format and always use the brackets and always have one command per line.  If a user tries to add a command add that to a new line at the end: '
 
 # These are used to add context to actions
 audio:
