@@ -4,10 +4,19 @@ Welcome, this repo contains the public files for the various DDS defcon workshop
 
 ## Quick Links
 
-* For DEFCON28 (2020): [Click Here](./2020/)
-* For DEFCON29 (2021): [Click Here](./2021/)
-* For DEFCON30 (2022): [Click Here](./2022/)
-* For DEFCON31 (2023): [Click Here](./2023/)
+* DEFCON27 (2019):
+    * [Bricks in the Air](https://github.com/deptofdefense/BricksInTheAir)
+        * Note the latest version of this workshop is managed by Aerospace Village [here](https://github.com/AerospaceVillage/BricksInTheAir)
+* DEFCON28 (2020): 
+    * [CPXSimpleSat](https://github.com/deptofdefense/CPXSimpleSat)
+    * [DDSat-1](https://github.com/deptofdefense/DDSat)
+* DEFCON29 (2021): 
+    * [DDRover](https://github.com/deptofdefense/DDRover)
+* DEFCON30 (2022): 
+    * [Hack the Microgrid](https://github.com/deptofdefense/HackTheMicrogrid)
+    * [SpaceJam: Satellite Jamming Simulator](https://github.com/deptofdefense/satellite-jamming-simulator)
+* DEFCON31 (2023): 
+    * [LLM Rover](https://github.com/zeetwii/llmRover)
 
 ## Hacking Libraries
 
