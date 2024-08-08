@@ -17,6 +17,8 @@ Welcome, this repo contains the public files for the various DDS defcon workshop
     * [SpaceJam: Satellite Jamming Simulator](https://github.com/deptofdefense/satellite-jamming-simulator)
 * DEFCON31 (2023): 
     * [LLM Rover](https://github.com/zeetwii/llmRover)
+* DEFCON32 (2024):
+    * [Modal Madness](./modalMadness.md)
 
 ## Hacking Libraries
 
